@@ -1,8 +1,7 @@
 FROM python:3.11.6-alpine3.18
 LABEL maintainer="liza.shulika.2009+1@gmail.com"
 
-ENV PYTHOUNNBUFFERED=1
-ENV API_KEY="612d2d82fccb49c3b62173058251706"
+ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app/
 
